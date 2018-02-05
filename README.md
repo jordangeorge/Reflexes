@@ -2,6 +2,8 @@
 
 Test your reflexes in this exciting Raspberry Pi game designed with the intention of teaching kids about computer science and engineering. Made for Engineering Day (E-Day) 2017-2018 at the University of Kentucky.
 
+Once the program is run, the player enters their name and pressed the 'enter' key to start the game. The player must then wait for the third/red LED to light up to press the button as quick as they can. The average score is about .2. Getting less than that means that the player has great reflexes!
+
 <hr>
 
 [Get started with your Raspberry Pi using this link](https://www.imore.com/how-get-started-using-raspberry-pi). You do not need an internet connection.
@@ -16,25 +18,12 @@ What you'll need (in addition to the things from the link above):
 - 3 LED lights, preferably all being different colors or one being a different color from the other two
 - Button
 
-Program was created using Raspberry Pi 3 Model B and Python 2.
+Program was originally created using the Raspberry Pi 3 Model B and Python 2.
 
-<img src="images/IMG_1978.jpg"
-  alt="Markdown Monster icon"
-  style="width:100px;" />
-<img src="images/IMG_1979.jpg"
-  alt="Markdown Monster icon"
-  style="width:100px;" />
-<img src="images/IMG_1980.jpg"
-  alt="Markdown Monster icon"
-  style="width:100px;" />
-<img src="images/IMG_1981.jpg"
-  alt="Markdown Monster icon"
-  style="width:100px;" />
-<img src="images/IMG_1982.jpg"
-  alt="Markdown Monster icon"
-  style="width:100px;" />
-<img src="images/IMG_1983.jpg"
-  alt="Markdown Monster icon"
-  style="width:100px;" />
-
-The average score is about .2 so getting less than that means that the player has great reflexes!
+<img src="images/IMG_1978.jpg" width="100">
+<img src="images/IMG_1979.jpg" width="100">
+<img src="images/IMG_1980.jpg" width="100">
+<img src="images/IMG_1981.jpg" width="100">
+<img src="images/IMG_1982.jpg" width="100">
+<img src="images/IMG_1983.jpg" width="100">
+<img src="images/IMG_1978.jpg" width="100">
