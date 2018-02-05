@@ -1,16 +1,3 @@
-Name: anthony ---------------- Score: 0.2167038918
-Name: anthony ---------------- Score: 0.2065649033
-Name: og snow ---------------- Score: 0.2224190235
-Name: ant---------------- Score: 0.2067940235
-Name: anthony snow ---------------- Score: 0.2770040035
-Name: tariq---------------- Score: 0.4471740723
-Name: anthony ---------------- Score: 0.1912310123
-Name: tariq---------------- Score: 0.3169450760
-Name: boobs---------------- Score: 0.1770679951
-Name: apples ---------------- Score: 0.3558340073
-Name: tariq---------------- Score: 0.2569589615
-Name: antdogg---------------- Score: 0.2315788269
-Name: tariqy riq---------------- Score: 0.2468621731
-Name: antman---------------- Score: 1.1790621281
-Name: ---------------- Score: 0.4803490639
-Name: tariq---------------- Score: 0.2001199722
+Name: Jordan                   Score: 0.2682318687
+Name: Jojo                     Score: 0.2198710442
+Name: Grey                     Score: 0.1990029812
