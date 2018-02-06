@@ -43,7 +43,7 @@ def run():
         red.off()
 
         with open("scores.txt", "a") as scoresFile:
-            entry = ("Name: " + name + "\t Score: " + str(format(yourtime, '.10f')) + "\n").expandtabs(30)
+            entry = ("Name: " + name + "\t Score: " + str(format(yourtime, '.5f')) + "\n").expandtabs(30)
             scoresFile.write(entry)
             break;
 
