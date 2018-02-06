@@ -10,8 +10,6 @@ red = LED(23)
 button = Button(26)
 
 def run():
-    count = 0
-
     print "Test Your Reflexes 1.0"
     name = raw_input("What is your name? ")
     raw_input("Press ENTER on the keyboard when ready")
