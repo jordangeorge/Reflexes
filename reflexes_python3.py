@@ -47,23 +47,7 @@ def run():
             with open("scores.txt", "a") as scoresFile: # open scores.txt; if there is no scores.txt file, create one
                 entry = ("Name: " + name + "\t Score: " + str(format(yourTime, '.5f')) + "\n").expandtabs(30)
                 scoresFile.write(entry) # save score to file
-
-
-            with open("top-scores.txt", "w") as topScores: # create new top-scores text file
-                listOfLists = []
-
-                with open('scores.txt') as scoresFile:
-                    for line in scoresFile:
-                        lineList = line.strip('\n').split()
-                        listOfLists.append(lineList)
-
-                sortedListofLists = sorted(listOfLists, key=itemgetter(-1)) # sort by the last item in each list, which is the score of each player
-
-                for item in sortedListofLists:
-                    itemStr = ' '.join(item)
-                    topScores.write(itemStr)
-
-                break; # end while loop
+                break; # end while loop                
 
         print('\n')
 
