@@ -37,15 +37,15 @@ def run():
         while True:
             button.wait_for_press() # wait for player to press button on breadboard
             finish = time.time() # end timer
-            yourtime = finish - start # assigns time between red button turning on and player pressing button to 'yourtime'
-            mystring =  "Hello, " + name + ". Your score is " + str(format(yourtime, '.5f') + "!")
+            yourTime = finish - start # assigns time between red button turning on and player pressing button to 'yourTime'
+            scoreStr =  "Hello, " + name + ". Your score is " + str(format(yourTime, '.5f') + "!")
 
-            print(mystring) # shows player their time/score
+            print(scoreStr) # shows player their time/score
 
             red.off() # turn red LED off
 
             with open("scores.txt", "a") as scoresFile: # open scores.txt; if there is no scores.txt file, create one
-                entry = ("Name: " + name + "\t Score: " + str(format(yourtime, '.5f')) + "\n").expandtabs(30)
+                entry = ("Name: " + name + "\t Score: " + str(format(yourTime, '.5f')) + "\n").expandtabs(30)
                 scoresFile.write(entry) # save score to file
 
 
