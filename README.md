@@ -4,7 +4,7 @@ Test your reflexes in this exciting Raspberry Pi game designed with the intentio
 
 Once the program is run, the player enters their name and presses the 'enter' key twice to start the game. The player must then wait for the third/red LED to light up to press the button as quick as they can.
 
-The average score is approximately 0.23. Getting less than 0.2 means that the player has great reflexes! Scores that are around 0.00006 are 'cheaters' because they're most likely holding the button down.
+The average score is approximately 0.23. Getting less than 0.2 means that the player has great reflexes! Scores that are around 0.00006 are 'cheaters' because they're most likely holding the button down. Scores above .4 are typically a result of people becoming used to the game or younger players. Therefore, these were filtered out of the average.
 
 Program was originally created using the Raspberry Pi 3 Model B and Python 2.
 
