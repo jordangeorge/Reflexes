@@ -9,7 +9,7 @@ red = LED(23)
 
 button = Button(26)
 
-def run():
+def main():
     while(1):
         print("Test Your Reflexes 2.0")
         name = input("What is your name? ") # saves player's name in the 'name' variable
@@ -49,5 +49,7 @@ def run():
                 break; # end while loop
 
         print('\n')
+    exit()
 
-run()
+if __name__ == '__main__':
+    main()

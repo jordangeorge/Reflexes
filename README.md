@@ -1,10 +1,34 @@
-# Reflexes
+# [Reflexes](https://github.com/jordangeorge/Reflexes)
+
+
+## Contents
+- Images folder
+  - Helpful images for creating the project
+- Resources folder
+  - Raspberry pi 3 gpio pinout image - helpful for creating the project
+- .gitignore
+- README.md
+- rank and average scores.ipynb
+  - Jupyter notebook that ranks and filters scores from the scores.txt file and stores them in ranked-filtered-scores.xlsx
+  - Also averages the scores
+- ranked-filtered-scores.xlsx
+  - Excel file containing ranked and filtered scores in ascending order
+- ranked-scores.txt
+  - Ranked scores in ascending order
+- reflexes.py
+  - Python 2 version
+- reflexes_python3.py
+  - Python 3 version
+- scores.txt
+  - All scores saved and shown here
+
+## About
 
 Test your reflexes in this exciting Raspberry Pi game designed with the intention of teaching kids about computer science and engineering. Made for Engineering Day (E-Day) 2017-2018 at the University of Kentucky.
 
 Once the program is run, the player enters their name and presses the 'enter' key twice to start the game. The player must then wait for the third/red LED to light up to press the button as quick as they can.
 
-The average score is approximately 0.23. Getting less than 0.2 means that the player has great reflexes! Scores that are around 0.00006 are 'cheaters' because they're most likely holding the button down. Scores above 0.4 are typically a result of people becoming used to the game, younger players, and various other reasons. Therefore, these were filtered out of the average.
+The average score is approximately 0.23. Getting less than 0.2 means that the player has great reflexes! Scores that are around 0.00006 are 'cheaters' because they're most likely holding the button down. Scores above 0.4 are typically a result of people becoming acclimated to the game, younger players, and various other reasons. Therefore, these were filtered out of the average.
 
 Program was originally created using the Raspberry Pi 3 Model B and Python 2.
 
@@ -40,7 +64,7 @@ Open ```reflexes_python3.py``` and run it. This can be done within the terminal 
 ###### Step 6 (optional)
 Use ```watch -n 1 tail scores.txt``` in the terminal to see live additions to the scores.txt file.
 
-## Pictures
+## Helpful Images
 <img src="images/IMG_1978.jpg" width="100">
 <img src="images/IMG_1979.jpg" width="100">
 <img src="images/IMG_1980.jpg" width="100">
