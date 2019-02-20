@@ -52,16 +52,17 @@ Either
 * download the repository within Raspbian
 
 or
+
 * download it onto a flash drive and connect that to your Raspberry Pi and copy the file to your Raspbian desktop or any other directory.
 
 ###### Step 5
 Open `reflexes_python3.py` and run it. This can be done within the terminal or a python compatible IDE.
 
 ###### Step 6 (optional)
-Use ```watch -n 1 tail scores.txt``` in the terminal to see live additions to the scores.txt file.
+Use `watch -n 1 tail scores.txt` in the terminal to see live additions to the scores.txt file.
 
 ## Helpful Images
-![](images/pi3_gpio pinout.png)
+![](images/pi3-gpio-pinout.png)
 ![](images/IMG_1978.jpg)
 ![](images/IMG_1979.jpg)
 ![](images/IMG_1980.jpg)
