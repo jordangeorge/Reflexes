@@ -3,11 +3,11 @@ from time import sleep, time
 import time
 from random import randint, seed
 
-green = LED(25)
-blue = LED(24)
-red = LED(23)
+green = LED(25) # connected to blue wire in images
+blue = LED(24) # connected to purple wire in images
+red = LED(23) # connected to green wire in images
 
-button = Button(26)
+button = Button(26) # connected to yellow wire in images
 
 def main():
     while(1):

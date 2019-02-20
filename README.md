@@ -1,13 +1,9 @@
 # [Reflexes](https://github.com/jordangeorge/Reflexes)
 
-
 ## Contents
 - Images folder
   - Helpful images for creating the project
-- Resources folder
   - Raspberry pi 3 gpio pinout image - helpful for creating the project
-- .gitignore
-- README.md
 - rank and average scores.ipynb
   - Jupyter notebook that ranks and filters scores from the scores.txt file and stores them in ranked-filtered-scores.xlsx
   - Also averages the scores
@@ -24,7 +20,7 @@
 
 ## About
 
-Test your reflexes in this exciting Raspberry Pi game designed with the intention of teaching kids about computer science and engineering. Made for Engineering Day (E-Day) 2017-2018 at the University of Kentucky.
+Test your reflexes in this exciting Raspberry Pi game designed with the intention of teaching kids about computer science and engineering. Made for Engineers Day (E-Day) 2017 at the University of Kentucky. This project has been featured at E-Day 2017-2019 as well as the Gatton Student Center Spectacular in 2018.
 
 Once the program is run, the player enters their name and presses the 'enter' key twice to start the game. The player must then wait for the third/red LED to light up to press the button as quick as they can.
 
@@ -41,7 +37,7 @@ Program was originally created using the Raspberry Pi 3 Model B and Python 2.
 Once you've completed getting started with the Raspberry Pi, you can set up the physical aspect of this project.
 
 What you'll need:
-- Breadboard
+- A breadboard
 - 5 Male-to-Female jumper/DuPont wires
 - 4 Female-to-Female jumper/DuPont wires
 - 4 resistors
@@ -53,22 +49,22 @@ Setup everything like in the pictures below.
 
 ###### Step 4
 Either
-* download the repository within raspbian
+* download the repository within Raspbian
 
 or
-* download it onto a flash drive and connect that to your Raspberry Pi and copy the file to your raspbian desktop or any other directory.
+* download it onto a flash drive and connect that to your Raspberry Pi and copy the file to your Raspbian desktop or any other directory.
 
 ###### Step 5
-Open ```reflexes_python3.py``` and run it. This can be done within the terminal or a python compatible IDE.
+Open `reflexes_python3.py` and run it. This can be done within the terminal or a python compatible IDE.
 
 ###### Step 6 (optional)
 Use ```watch -n 1 tail scores.txt``` in the terminal to see live additions to the scores.txt file.
 
 ## Helpful Images
-<img src="images/IMG_1978.jpg" width="100">
-<img src="images/IMG_1979.jpg" width="100">
-<img src="images/IMG_1980.jpg" width="100">
-<img src="images/IMG_1981.jpg" width="100">
-<img src="images/IMG_1982.jpg" width="100">
-<img src="images/IMG_1983.jpg" width="100">
-<img src="images/IMG_1978.jpg" width="100">
+![](images/pi3_gpio pinout.png)
+![](images/IMG_1978.jpg)
+![](images/IMG_1979.jpg)
+![](images/IMG_1980.jpg)
+![](images/IMG_1981.jpg)
+![](images/IMG_1982.jpg)
+![](images/IMG_1983.jpg)
