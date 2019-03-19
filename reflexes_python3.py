@@ -46,7 +46,7 @@ def main():
             with open("scores.txt", "a") as scoresFile: # open scores.txt; if there is no scores.txt file, create one
                 entry = ("Name: " + name + "\t Score: " + str(format(yourTime, '.5f')) + "\n").expandtabs(30)
                 scoresFile.write(entry) # save score to file
-                break; # end while loop
+                break # end while loop
 
         print('\n')
     exit()

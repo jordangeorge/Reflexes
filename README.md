@@ -1,6 +1,6 @@
 # [Reflexes](https://github.com/jordangeorge/Reflexes)
 
-## Contents
+## Contents of Repository
 - Images folder
   - Helpful images for creating the project
   - Raspberry pi 3 gpio pinout image - helpful for creating the project
@@ -16,7 +16,7 @@
 - reflexes_python3.py
   - Python 3 version
 - scores.txt
-  - All scores saved and shown here
+  - Raw scores
 
 ## About
 
@@ -37,12 +37,13 @@ Program was originally created using the Raspberry Pi 3 Model B and Python 2.
 Once you've completed getting started with the Raspberry Pi, you can set up the physical aspect of this project.
 
 What you'll need:
-- A breadboard
-- 5 Male-to-Female jumper/DuPont wires
-- 4 Female-to-Female jumper/DuPont wires
-- 4 resistors
-- 3 LED lights, preferably all being different colors or one being a different color from the other two
-- Button
+- 1 x Breadboard
+- 5 x Male-to-Female jumper/DuPont wires
+- 4 x Female-to-Female jumper/DuPont wires
+- 4 x Resistor
+- 3 x LED
+  - Preferably all being different colors or one being a different color from the other two
+- 2 x Tactile push buttons
 
 ###### Step 3
 Setup everything like in the pictures below.
